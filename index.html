@@ -19,6 +19,44 @@
 				<input type="email" name="email" id="email" placeholder="Email Address" />
 				<input type="submit" value="Sign Up" />
 			</form>
+			<script>
+document.getElementById("signup-form").addEventListener("submit", function(event) {
+    var emailInput = document.getElementById("email");
+    var email = emailInput.value.trim();
+    var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+    if (!email.match(emailRegex)) {
+        alert("Please enter a valid email address.");
+        event.preventDefault(); // Prevent form submission
+    }
+});
+</script>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get the form input
+    $email = $_POST["email"];
+
+    // Validate the email
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Set up the email details
+        $to = "your-email@example.com"; // Replace with your email address
+        $subject = "New signup";
+        $message = "A new user signed up with the email: " . $email;
+        $headers = "From: " . $email . "\r\n" .
+            "Reply-To: " . $email . "\r\n" .
+            "X-Mailer: PHP/" . phpversion();
+
+        // Send the email
+        if (mail($to, $subject, $message, $headers)) {
+            echo "Thank you for signing up! We'll be in touch.";
+        } else {
+            echo "Oops! Something went wrong. Please try again later.";
+        }
+    } else {
+        echo "Please enter a valid email address.";
+    }
+}
+?>
 		-->
 		<!-- Footer -->
 			<footer id="footer">
