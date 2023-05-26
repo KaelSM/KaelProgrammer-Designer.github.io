@@ -1,67 +1,42 @@
-Eventually by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Standby Screen
 
+The screen is for a project coming soon, passing images from where I have been in my travels while studying
 
-Just a simple placeholder template for your kickass app/product/startup/whatever until it
-launches. Includes an email signup form and a cool slideshow background (more on both below).
+## Contact form
+the html for the contact form is commented, as well as the php for it and js for it as they will auth for email address and php to send the form to your email.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+```bash
+ Signup Form 
+			<form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Sign Up" />
+			</form>
+		
+```
+just need to uncomment the portion named Signup Form and customize it to your own.
 
-(* = not included)
+## Usage
 
-AJ
-aj@lkn.io | @ajlkn
+there is 2 main things, you may want the images to be url based or local based, it cycles through 3 images, but you can add more if needed, with a fade out effect to black.
+```
+you will be looking for "Slideshow Background" 
+in the js where you can set the url, and the delay between the images
 
+```
 
-Signup Form:
+## Contributing
 
-	The signup form won't actually do anything (other than report back with a "thank you" message)
-	until you tie it to either a third party service (eg. MailChimp) or your own hosted solution.
-	In either case, there are two ways to go:
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-	1. The conventional (non-AJAX) way, which pretty much comes down to pointing the form's "action"
-	attribute to your service/script URL. If you go this route, remove the entire "Signup Form" code
-	block from assets/js/main.js (since it's not needed for this approach).
+## License
 
-	-or-
+[MIT](https://choosealicense.com/licenses/mit/)
 
-	2. The AJAX way. How you set this up is largely dependent on the service/solution you're using
-	so you'll need to consult their/its documentation. However, I have included some basic code
-	(under "Signup Form" in assets/js/main.js) that will at least let you interact with the
-	form itself.
+## Credits
 
+Images: [Unsplash](unsplash.com)
 
-Slideshow Background:
-
-	This is pretty straightforward, but there are two JS settings you'll want to be aware of
-	(found under "Slideshow Background" in assets/js/main.js):
-
-	images
-
-		The list of images to cycle through, given in the following format:
-
-			'url': 'alignment'
-
-		Where 'url' is the image (eg. 'images/foo.jpg', 'http://somewhere.else/foo.jpg'), and
-		'alignment' is how the image should be vertically aligned ('top', 'center', or 'bottom').
-
-		Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.
-
-	delay
-
-		How long to wait between transitions (in ms). Note that this must be at least twice as long as
-		the transition speed itself (currently 3 seconds).
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Icons: [Font Awesome](fontawesome.io)
+	
+Main Template: [Eventually by HTML5 UP](html5up.net/license)
