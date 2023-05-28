@@ -26,3 +26,4 @@ there is 2 main things, you may want the images to be url based or local based, 
 you will be looking for "Slideshow Background" 
 in the js where you can set the url, and the delay between the images
 ```
+the standby screen uses both css and js file both named main and are in the root folder, as the img are in the folder in main
