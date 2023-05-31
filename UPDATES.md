@@ -28,14 +28,14 @@ in the js where you can set the url, and the delay between the images
 ```
 the standby screen uses both css and js file both named main and are in the root folder, as the img are in the folder in main
 
--------------
+
 # Update 2
 
 
 # Error Screens
 
 ## 404 Screen
--------------
+
 This screen is to have a custom 404 error screen, this one shows a moon and astronaut with custom text for your screen as well as a home/back button if needed.
 it has 2 code pages that could be put together in one if needed. An index that has to be called `404.html` for it to work as a custom error page, and the css file that can be a normal styles page, all the animations are handled in the css file that has some scss attributes.
 
