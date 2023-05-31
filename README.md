@@ -19,4 +19,6 @@ Images: [Unsplash](unsplash.com)
 
 Icons: [Font Awesome](fontawesome.io)
 	
-Main Template: [Eventually by HTML5 UP](html5up.net/license)
+Main Template for standby screen: [Eventually by HTML5 UP](html5up.net/license)
+
+Error screens: [found examples and templates](https://freefrontend.com/html-code-examples/)
