@@ -68,7 +68,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 <!-- omit in toc -->
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <kael.m0211@gmail.com>.
+> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public.
 <!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
@@ -106,28 +106,6 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/KaelSM
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
 - You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
 - **Explain why this enhancement would be useful** to most My Portfolio users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
-
-
-### Your First Code Contribution
-<!-- TODO
-include Setup of env, IDE and typical getting started instructions?
-
--->
-
-### Improving The Documentation
-<!-- TODO
-Updating, improving and correcting the documentation
-
--->
-
-## Styleguides
-### Commit Messages
-<!-- TODO
-
--->
-
-## Join The Project Team
-<!-- TODO -->
 
 <!-- omit in toc -->
 ## Attribution
