@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Title -->
+	<title>Mahalo</title>
+
+	<!-- Mobile Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Favicon (http://www.favicon-generator.org/) -->
+	<link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="../../images/favicon.png" type="image/x-icon">
+
+	<!-- Your Google Analytics code goes here! -->
+
+	<!-- Google fonts (https://www.google.com/fonts) -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"> <!-- Secondary/Alter font -->
+
+	<!-- Libs and Plugins CSS -->
+	<link rel="stylesheet" href="../assets/vendor/normalize/normalize.min.css"> <!-- Normalize CSS (https://necolas.github.io/normalize.css/) -->
+	<link rel="stylesheet" href="../assets/vendor/fontawesome/css/fontawesome-all.min.css"> <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
+	<link rel="stylesheet" href="../assets/vendor/swiper/css/swiper-bundle.min.css"> <!-- Swiper CSS (https://swiperjs.com/) -->
+	<link rel="stylesheet" href="../assets/vendor/lightgallery/css/lightgallery.min.css"> <!-- lightGallery CSS (http://sachinchoolur.github.io/lightGallery) -->
+
+	<!-- Template master CSS -->
+	<link rel="stylesheet" href="../assets/css/theme.css">
+
+</head>
+
+	
+	<!-- ===========
+	///// Body /////
+	================
+	* Use class "tt-boxed" to enable page boxed layout globally (affects all elements containing class "tt-wrap").
+	* Use class "tt-smooth-scroll" to enable page smooth scrolling.
+	* Use class "tt-transition" to enable page transitions.
+	* Use class "tt-magic-cursor" to enable magic cursor.
+	-->
+	<body id="body" class="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor">
+
+
+	<!-- *************************************
+	*********** Begin body inner *************
+	************************************** -->
+	<main id="body-inner">
+
+		<!-- Begin page transition (do not remove!!!)
+		=========================== -->
+		<div id="page-transition">
+			<div class="ptr-overlay"></div>
+			<div class="ptr-preloader">
+				<div class="ptr-prel-content">
+					<!-- Hint: You may need to change the img height and opacity to match your logo type. You can do this from the "theme.css" file (find: ".ptr-prel-image"). -->
+					<img src="../../images/logo-lighcct.png" class="ptr-prel-image tt-logo-light" alt="Logo">
+				</div> <!-- /.ptr-prel-content -->
+			</div> <!-- /.ptr-preloader -->
+		</div>
+		<!-- End page transition -->
+
+		<!-- Begin magic cursor
+		======================== -->
+		<div id="magic-cursor">
+			<div id="ball"></div>
+		</div>
+		<!-- End magic cursor -->
+
+		<!-- Begin noise background -->
+		<div class="bg-noise"></div>
+		<!-- End noise background -->
+
+
+	<!-- *****************************************
+    *********** Begin scroll container ***********
+    ****************************************** -->
+			<div id="scroll-container"> 
+				
+				<!-- ===================
+				///// Begin header /////
+				========================
+				* Use class "tt-header-fixed" to set header to fixed position.
+				-->
+				<header id="tt-header" class="tt-header-fixed">
+					<div class="tt-header-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes can be found in the file "helper.css". -->
+
+						<div class="tt-header-col">
+
+							<!-- Begin logo
+                            ================ -->
+							<div class="tt-logo">
+								<a href="../portfolio-hover-carousel.html">
+									<!-- Hint: You may need to change the img height to match your logo type. You can do this from the "theme.css" file (find: ".tt-logo img"). -->
+									<img src="../../images/logo-ligDht.png" class="tt-logo-light magnetic-item" alt="Logo"> <!-- logo light -->
+									<img src="../../images/logodDark.png" class="tt-logo-dark magnetic-item" alt="Logo"> <!-- logo dark -->
+								</a>
+							</div>
+							<!-- End logo -->
+
+						</div> <!-- /.tt-header-col -->
+
+						<div class="tt-header-col">
+
+							<!-- Begin noise background -->
+							<div class="bg-noise"></div>
+							<!-- End noise background -->
+						</div> <!-- /.header-col -->
+					</div> <!-- /.header-inner -->
+				</header>
+				<!-- End header -->
+
+				
+				<!-- *************************************
+				*********** Begin content wrap *********** 
+				************************************** -->
+				<div id="content-wrap">
+
+					
+					<!-- ========================
+					///// Begin page header /////
+					=============================
+					* ATENTION: This page header is slightly different from the default page header! 
+					It contains some extra elements and classes specifically for a portfolio single project.
+					============================= 
+					* Use class "ph-full" to enable fullscreen size.
+					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).).
+					* Use class "ph-center" to enable content center position.
+					* Use class "ph-bg-image" to enable page header background image (required for a portfolio single project!).
+					* Use class "ph-bg-image-is-light" if needed, it makes the elements dark and more visible if you use a very light image (effect only with class "ph-bg-image").
+					* Use class "ph-image-shadow" to enable page header background image (effect only with class "ph-bg-image").
+					* Use class "ph-image-cropped" to crop image. It fixes image dimensions (no effect for "ph-bg-image"!).
+					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5").
+					* Use class "ph-content-parallax" to enable content parallax.
+					* Use class "ph-stroke" to enable caption title stroke style.
+					* Use class "ph-inline" to enable content inline position (for a single project page only! No effect with class "ph-center"!).
+					-->
+					<div id="page-header" class="ph-full ph-inline ph-bg-image ph-image-shadow ph-image-cover-5 ph-content-parallax">
+						<div class="page-header-inner tt-wrap">
+
+							<!-- Begin page header image
+							============================= -->
+							<div class="ph-image">
+								<div class="ph-image-inner">
+									<img src="../assets/img/portfolio/mahalo.png" alt="Image">
+								</div>
+							</div>
+							<!-- End page header image -->
+
+							<!-- Begin page header caption
+							===============================
+							Use class "max-width-*" to set caption max width if needed. For example "max-width-1000". More info about helper classes can be found in the file "helper.css".
+							-->
+							<div class="ph-caption">
+								<div class="ph-categories ph-appear">
+									<div class="ph-category" style="">Web App</div>
+									<!-- <div class="ph-category">Varia</div> -->
+								</div> <!-- /.ph-categories -->
+
+								<h2 class="ph-caption-title ph-appear">Mahalo</h2> <!-- You can use <br class="hide-from-lg"> to break a text line if needed -->
+
+							</div>
+							<!-- End page header caption -->
+
+							<!-- Begin project info list
+							=============================
+							* You can use the project info list as a standalone element outside of the page header if you want.
+							* Class "ph-appear" is for page header only!
+							-->
+							<div class="project-info-list">
+								<ul>
+									<li>
+										<div class="pi-list-heading">Year</div>
+										<div class="pi-list-cont">2023</div>
+									</li>
+									<li>
+										<div class="pi-list-heading">Purpose</div>
+										<div class="pi-list-cont">Web Application for Mahalo Holistic Therapy</div>
+									</li>
+									<li>
+										<div class="pi-list-heading">Tech</div>
+										<div class="pi-list-cont">Javascript</div> <!-- Describe in a few words -->
+									</li>
+									<li>
+										<div class="pi-list-heading">Process</div>
+										<div class="pi-list-cont">On going (main objective almost live)</div> <!-- Describe in a few words -->
+									</li>
+									<li>
+										<div class="pi-list-heading">Team</div>
+										<div class="pi-list-cont">Kael</div> <!-- Describe in a few words -->
+									</li>
+									<li>
+										<div class="pi-list-heading">Repo</div>
+										<div class="pi-list-cont"><a href="https://github.com/KaelSM/MahaloNewWeb" target="_blank" rel="noopener">Visit site<span class="pi-list-icon"><i class="fas fa-arrow-right"></i></span></a></div>
+									</li>
+								</ul>
+							</div>
+							<!-- End project info list -->
+
+						</div> <!-- /.page-header-inner -->
+
+						<!-- Begin scroll down circle (you can change "data-offset" to set scroll top offset)
+						============================== -->
+						<a href="#page-content" class="scroll-down-circle" data-offset="30">
+							<div class="sdc-inner ph-appear">
+								<div class="sdc-icon"><i class="fas fa-chevron-down"></i></div>
+								<svg viewBox="0 0 500 500">
+									<defs>
+										<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
+									</defs>
+									<text dy="30">
+										<textPath xlink:href="#textcircle">Scroll down - Scroll down -</textPath>
+									</text>
+								</svg>
+							</div> <!-- /.sdc-inner -->
+						</a>
+						<!-- End scroll down circle -->
+
+						<!-- Begin made with love
+						========================== -->
+						<div class="made-with-love ph-appear">
+							<div class="mwl-inner">
+								<div class="mwl-text">Made with</div>
+								<div class="mwl-icon"><i class="fab fa-js-square"></i>
+								</div>
+							</div>
+						</div>
+						<!-- End made with love -->
+
+
+					</div>
+					<!-- End page header -->
+
+
+					<!-- *************************************
+					*********** Begin page content *********** 
+					************************************** -->
+					<div id="page-content">
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-180 padding-left-sm-3-p padding-right-sm-3-p">
+							<div class="tt-section-inner tt-wrap max-width-1000">
+								<div class="tt-row">
+									<div class="tt-col-lg-4 padding-right-md-5-p">
+								<div class="tt-heading tt-heading-xsm margin-bottom-60 anim-fadeinup">
+									<h2 class="tt-heading-title">About</h2>
+									<!-- <h3 class="tt-heading-subtitle text-gray">Subtitle</h3> -->
+								</div>
+								<!-- End tt-Heading -->
+
+							</div> <!-- /.tt-col -->
+
+							<div class="tt-col-lg-8">
+
+								<div class="anim-fadeinup text-gray">
+									<p> <b>Mahalo</b>  is a comprehensive digital platform designed to bridge the gap
+										between traditional holistic practices and modern wellness needs. Our system is
+										engineered to support a wide array of content, interactive sessions, and community
+										engagement, all within a secure and intuitive environment.<br>
+										From a technical standpoint, Mahalo leverages a full-stack JavaScript environment,
+										ensuring a seamless and dynamic user experience. Our backend is structured around a
+										RESTful API design, supporting secure and scalable interactions with various frontend
+										operations. Data integrity and privacy are upheld through advanced encryption methods
+										and compliance with data protection regulations.</p>
+								</div>
+
+							</div> <!-- /.tt-col -->
+						</div> <!-- /.tt-row -->
+
+					</div> <!-- /.tt-section-inner -->
+				</div>
+				<!-- End tt-section -->
+
+
+				<!-- =======================
+                ///// Begin tt-section /////
+                ============================
+                * You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+                -->
+				<div class="tt-section">
+					<div class="tt-section-inner">
+
+						<!-- Begin tt-image
+                        ====================
+                        * Use class "tti-fixed-height" to enable image fixed height (no effect on small screens!).
+                        * Use class "anim-image-parallax" on <img> tag to enable parallax effect.
+                        * Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-100". More info about helper classes can be found in the file "helper.css".
+                        -->
+						<div class="tt-image tti-fixed-height">
+							<figure>
+								<img class="anim-image-parallax tt-lazy" src="img/m1.png" data-src="img/m1.png" alt="image">
+
+							</figure>
+						</div>
+						<!-- End tt-image -->
+
+					</div> <!-- /.tt-section-inner -->
+				</div>
+				<!-- End tt-section -->
+
+
+				<!-- =======================
+                ///// Begin tt-section /////
+                ============================
+                * You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+                -->
+				<div class="tt-heading tt-heading-xsm anim-fadeinup">
+					<h2 class="tt-heading-title">Key Features</h2>
+					<!-- <h3 class="tt-heading-subtitle text-gray">Subtitle</h3> -->
+				</div>
+				<!-- End tt-Heading -->
+				<div class="project-info-list anim-fadeinup margin-top-60">
+					<ul>
+						<li>
+							<div class="pi-list-heading">Dynamic Content Management</div>
+							<div class="pi-list-cont"> CRUD operations for articles, videos, meditations, and user profiles. </div>
+						</li>
+						<li>
+							<div class="pi-list-heading">Real-time Interactivity</div>
+							<div class="pi-list-cont">WebSockets for live events and chats.</div> <!-- Describe in a few words -->
+						</li>
+						<li>
+							<div class="pi-list-heading">Payment Gateway Integration</div>
+							<div class="pi-list-cont">Secure transactions for donations or premium content access. </div>
+						</li>
+						<li>
+							<div class="pi-list-heading">Responsive Design</div>
+							<div class="pi-list-cont"> Mobile-first approach using CSS frameworks like TailwindCSS or Bootstrap.</div>
+						</li>
+					</ul>
+				</div>
+
+			</div> <!-- /.tt-col -->
+
+		<div class="tt-col-lg-4">
+		</div> <!-- /.tt-col -->
+		</div> <!-- /.tt-row -->
+
+		<!-- =======================
+                                ///// Begin tt-section /////
+                                ============================
+                                * You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+                                -->
+		<div class="tt-section">
+			<div class="tt-section-inner">
+
+				<!-- Begin tt-image
+                ====================
+                * Use class "tti-fixed-height" to enable image fixed height (no effect on small screens!).
+                * Use class "anim-image-parallax" on <img> tag to enable parallax effect.
+                * Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-100". More info about helper classes can be found in the file "helper.css".
+                -->
+				<div class="tt-image tti-fixed-height">
+					<figure>
+						<img class="anim-image-parallax tt-lazy" src="img/m2.png" data-src="img/m2.png" alt="image">
+
+					</figure>
+				</div>
+				<!-- End tt-image -->
+
+			</div> <!-- /.tt-section-inner -->
+		</div>
+		<!-- End tt-section -->
+		<div class="tt-col-lg-8">
+			<div id="skills-container">
+				<div class="skill">
+					<h3>Javascript</h3>
+					<div class="skill-bar" data-percentage="70%"><div class="skill-percentage6"></div></div>
+				</div>
+				<div class="skill">
+					<h3>HTML</h3>
+					<div class="skill-bar" data-percentage="15%"><div class="skill-percentage5"></div></div>
+				</div>
+				<div class="skill">
+					<h3>CSS/SCSS/SASS</h3>
+					<div class="skill-bar" data-percentage="15%"><div class="skill-percentage5"></div></div>
+				</div>
+				<!-- Add more skills as needed -->
+			</div>
+		</div>
+		<script>
+			// Function to animate the skill bars
+			function animateSkillBars() {
+				var skillBars = document.querySelectorAll('.skill-bar');
+
+				skillBars.forEach(function(bar) {
+					var percentage = bar.getAttribute('data-percentage');
+					var skillPercentage = bar.querySelector('.skill-percentage');
+					skillPercentage.style.width = '0%'; // Set initial width to 0
+
+					// Animate width to full percentage
+					var width = 0;
+					var interval = setInterval(function() {
+						if (width >= parseInt(percentage)) {
+							clearInterval(interval);
+						} else {
+							width++;
+							skillPercentage.style.width = width + '%';
+						}
+					}, 10); // Speed of the animation
+				});
+			}
+
+			// Event to trigger animation when skill section is reached
+			window.addEventListener('scroll', function() {
+				var skillContainer = document.getElementById('skills-container');
+				var position = skillContainer.getBoundingClientRect(); // Get position of skill container
+
+				// Check if skill container is in view (you can adjust '100' to trigger sooner or later)
+				if(position.top < window.innerHeight - 100) {
+					animateSkillBars();
+				}
+			});
+		</script>
+		<!-- =======================
+            ///// Begin tt-section /////
+            ============================
+            * You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+            -->
+		<div class="tt-section">
+			<div class="tt-section-inner">
+
+				<!-- Begin tt-image
+                ====================
+                * Use class "tti-fixed-height" to enable image fixed height (no effect on small screens!).
+                * Use class "anim-image-parallax" on <img> tag to enable parallax effect.
+                * Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-100". More info about helper classes can be found in the file "helper.css".
+                -->
+				<div class="tt-image tti-fixed-height">
+					<figure>
+						<img class="anim-image-parallax tt-lazy" src="img/m3.png" data-src="img/m3.png" alt="image">
+					</figure>
+				</div>
+				<br><br>
+				<!-- End tt-image -->
+				<div class="tt-heading tt-heading-xsm anim-fadeinup">
+					<h2 class="tt-heading-title">Future Features</h2>
+					<!-- <h3 class="tt-heading-subtitle text-gray">Subtitle</h3> -->
+				</div>
+
+				<div class="tt-col-lg-8">
+
+					<div class="anim-fadeinup text-gray">
+
+						<p> Mahalo's roadmap is set to significantly enhance user engagement and administrative functionalities,
+							ensuring a more interactive and streamlined experience. Central to our engagement strategy is the refinement
+							of our communication channels; we're developing intuitive emailing templates and subscription systems,
+							simplifying the processes of subscribing and unsubscribing. These improvements, coupled with enriched
+							notification features, aim to keep our community informed and connected. Additionally, we're cultivating a
+							more communal space by introducing a comprehensive blog section, encouraging knowledge-sharing and discussions
+							amongst users and wellness experts alike. This communal spirit will extend into a specialized platform segment,
+							'comunidad users,' designed as a collaborative blog space where users can share, connect, and inspire.<br>
+							On the administrative side, we're focusing on enhancing content management and event scheduling. The implementation
+							of a dynamic calendar feature will publicize upcoming workshops and talks, with an integrated administrative login
+							system allowing for efficient schedule updates. This focus on administrative efficiency will also see the development
+							of a dedicated admin panel, designed to centralize content management, user insights, and site analytics. Looking
+							towards broader accessibility, we're exploring the potential of a dedicated mobile application, bringing Mahalo's
+							wellness resources directly into users' daily lives, wherever they may be. These advancements underscore our
+							commitment to creating an intuitive, community-driven, and accessible wellness platform.</p>
+
+					</div>
+
+				</div> <!-- /.tt-col -->
+
+
+			</div> <!-- /.tt-section-inner -->
+		</div>
+
+
+		<!-- End tt-section -->
+
+		<!-- =======================
+        ///// Begin tt-section /////
+        ============================
+        * You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+        -->
+						<div class="tt-section">
+							<div class="tt-section-inner tt-wrap">
+
+								<!-- Begin tt-image
+								====================
+								* Use class "tti-fixed-height" to enable image fixed height (no effect on small screens!).
+								* Use class "anim-image-parallax" on <img> tag to enable parallax effect.
+								* Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-100". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-image margin-bottom-100">
+									<figure>
+										<img class="anim-image-parallax tt-lazy" src="img/m4.png" data-src="img/m4.png" alt="image">
+
+									</figure>
+								</div> 
+								<!-- End tt-image -->
+
+								<!-- Begin tt-image
+								====================
+								* Use class "tti-fixed-height" to enable image fixed height (no effect on small screens!).
+								* Use class "anim-image-parallax" on <img> tag to enable parallax effect.
+								* Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-100". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-image margin-bottom-100">
+									<figure>
+										<img class="anim-image-parallax tt-lazy" src="img/m5.png" data-src="img/m5.png" alt="image">
+
+									</figure>
+								</div> 
+								<!-- End tt-image -->
+
+								<!-- Begin tt-image
+								====================
+								* Use class "tti-fixed-height" to enable image fixed height (no effect on small screens!).
+								* Use class "anim-image-parallax" on <img> tag to enable parallax effect.
+								* Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-100". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-image margin-bottom-100">
+									<figure>
+										<img class="anim-image-parallax tt-lazy" src="img/m6.png" data-src="img/m6.png" alt="image">
+
+									</figure>
+								</div> 
+								<!-- End tt-image -->
+
+								<!-- Begin tt-image
+								====================
+								* Use class "tti-fixed-height" to enable image fixed height (no effect on small screens!).
+								* Use class "anim-image-parallax" on <img> tag to enable parallax effect.
+								* Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-100". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-image margin-bottom-100">
+									<figure>
+										<img class="anim-image-parallax tt-lazy" src="img/m7.png" data-src="img/m7.png" alt="image">
+
+									</figure>
+								</div> 
+								<!-- End tt-image -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-bottom-xlg-150">
+							<div class="tt-section-inner tt-wrap">
+
+								<!-- Begin page nav 
+								==================== 
+								* Use class "tt-pn-stroke" to enable title stroke style.
+								* Use class "tt-pn-scroll" to enable hover title scroll. Note: If "tt-pn-hover-title" text is wider than "tt-pn-link" then it scrolls by default. The longer the text, the faster it scrolls.
+								-->
+								<div class="tt-page-nav tt-pn-scroll">
+									<a href="project5.html" class="tt-pn-link anim-fadeinup">
+										<div class="tt-pn-title">Next Project</div>
+										<div class="tt-pn-hover-title">ZeroHour Countdown</div>
+									</a> <!-- /.tt-pn-link -->
+
+									<!-- Use if destination page contains page header image -->
+									<div class="tt-pn-image">
+										<img src="img/timerflip.png" alt="image">
+									</div>
+								</div>
+								<!-- End page nav -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+					</div>
+					<!-- End page content -->
+
+
+					<!-- ======================
+                            ///// Begin tt-footer /////
+                            =========================== -->
+					<footer id="tt-footer" class="footer-absolute">
+						<div class="tt-footer-inner">
+
+							<!-- Begin footer column
+                           ========================= -->
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+
+									<div class="tt-btn tt-btn-link">
+										<a href="../portfolio-hover-carousel.html" data-hover="Home">Back to Projects</a>
+									</div>
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+							<!-- Begin footer column
+                            ========================= -->
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+
+									<div class="tt-btn tt-btn-link">
+										<a href="../../index.html" data-hover="Home">Back Home</a>
+									</div>
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+							<!-- Begin footer column
+                            ========================= -->
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+
+									<div class="tt-btn tt-btn-link">
+										<a href="../../index.html#contact" data-hover="Contact">Get in Touch</a>
+									</div>
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+							<!-- Begin footer column
+                            ========================= -->
+							<div class="footer-col tt-align-center-right">
+								<div class="footer-col-inner">
+
+									<div class="footer-social">
+										<div class="footer-social-text"><span>Follow Me </span><i class="fas fa-share-alt"></i></div>
+										<div class="social-buttons">
+											<ul>
+												<li><a href="https://www.linkedin.com/in/kael-moreira/" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+												<li><a href="https://bit.ly/3gtaybJ" class="magnetic-item" target="_blank" rel="noopener"><i class="fas fa-pen-nib" aria-hidden="true"></i></a></li>
+												<li><a href="https://github.com/KaelSM" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+												<li><a href="mailto:kael.m0211@gmail.com" class="magnetic-item" target="_blank" rel="noopener"><i class="fas fa-paper-plane" aria-hidden="true"></i></a></li>
+											</ul>
+										</div> <!-- /.social-buttons -->
+									</div> <!-- /.footer-social -->
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+						</div> <!-- /.tt-section-inner -->
+					</footer>
+					<!-- End tt-footer -->
+
+
+				</div>
+				<!-- End content wrap -->
+
+			</div>
+		<!-- End scroll container -->
+
+
+	</main>
+	<!-- End body inner -->
+
+
+
+	<!-- ====================
+    ///// Scripts below /////
+    ===================== -->
+
+	<!-- Core JS -->
+	<script src="../assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
+
+	<!-- Libs and Plugins JS -->
+	<script src="../assets/vendor/gsap/gsap.min.js"></script> <!-- GSAP JS (https://greensock.com/gsap/) -->
+	<script src="../assets/vendor/gsap/ScrollToPlugin.min.js"></script> <!-- GSAP ScrollToPlugin JS (https://greensock.com/scrolltoplugin/) -->
+	<script src="../assets/vendor/gsap/ScrollTrigger.min.js"></script> <!-- GSAP ScrollTrigger JS (https://greensock.com/scrolltrigger/) -->
+
+	<script src="../assets/vendor/smooth-scrollbar.js"></script> <!-- Smooth Scrollbar JS (https://github.com/idiotWu/smooth-scrollbar/) -->
+	<script src="../assets/vendor/swiper/js/swiper-bundle.min.js"></script> <!-- Swiper JS (https://swiperjs.com/) -->
+	<script src="../assets/vendor/isotope/imagesloaded.pkgd.min.js"></script> <!-- imagesloaded JS (more info: https://imagesloaded.desandro.com/) -->
+	<script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script> <!-- Isotope JS (http://isotope.metafizzy.co) -->
+	<script src="../assets/vendor/isotope/packery-mode.pkgd.min.js"></script> <!-- Isotope Packery Mode JS (https://isotope.metafizzy.co/layout-modes/packery.html) -->
+	<script src="../assets/vendor/lightgallery/js/lightgallery-all.min.js"></script> <!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
+	<script src="../assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
+
+	<!-- Theme master JS -->
+	<script src="../assets/js/theme.js"></script>
+
+
+
+	</body>
+
+</html>

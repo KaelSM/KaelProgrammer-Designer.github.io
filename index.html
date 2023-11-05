@@ -1,80 +1,213 @@
 <!DOCTYPE HTML>
-<html>
+
+<html lang="en">
 	<head>
 		<title>Kael Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Coming soon...</h1>
-				<p>Kael Moreira portfolio for both coding and design.</p>
-			</header>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-		<!-- Signup Form 
-			<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
-			</form>
-			<script>
-document.getElementById("signup-form").addEventListener("submit", function(event) {
-    var emailInput = document.getElementById("email");
-    var email = emailInput.value.trim();
-    var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon solid">
+								<img src="images/logomain.png" class="logoicon" alt="Logo Image">
+							</span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Hello, I am Kael Moreira</h1>
+								<h1>And I am a(n) <span></span></h1>
+								
+								<p><b>You can't go wrong hiring a full-stack programmer and designer.</b> Both 
+									my degrees in <b>computer programmer analyst</b> and<b> multimedia 
+									design producer</b> will certifiy that you have a <b>well-rounded professional</b> ready 
+									to work with a positive attitude and good work ethic.</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="pdf/mycv.pdf" download="KaelS_MoreiraG">Download my CV</a></li>
+								<li><a href="prog/portfolio-hover-carousel.html">Coding Portfolio</a></li>
+								<li><a href="desi/intro-slideshow.html">Design Portfolio</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
 
-    if (!email.match(emailRegex)) {
-        alert("Please enter a valid email address.");
-        event.preventDefault(); // Prevent form submission
-    }
-});
-</script>
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get the form input
-    $email = $_POST["email"];
+						<div id="effect-box">
+							<canvas id="constellation"></canvas>
+						</div>
+					</header>
 
-    // Validate the email
-    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        // Set up the email details
-        $to = "your-email@example.com"; // Replace with your email address
-        $subject = "New signup";
-        $message = "A new user signed up with the email: " . $email;
-        $headers = "From: " . $email . "\r\n" .
-            "Reply-To: " . $email . "\r\n" .
-            "X-Mailer: PHP/" . phpversion();
+				<!-- Main -->
+					<div id="main">
 
-        // Send the email
-        if (mail($to, $subject, $message, $headers)) {
-            echo "Thank you for signing up! We'll be in touch.";
-        } else {
-            echo "Oops! Something went wrong. Please try again later.";
-        }
-    } else {
-        echo "Please enter a valid email address.";
-    }
-}
-?>
-		-->
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/kael-moreira/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-					<li><a href="https://bit.ly/3gtaybJ" target="_blank" class="icon solid fa-swatchbook"><span class="label">Design</span></a></li>
-					<li><a href="https://github.com/KaelSM" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="mailto:kael.m0211@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Kael Moreira.</li><li>2023</li><li> 
-					Email: <a href="mailto:kael.m0211@gmail.com">Contact me</a>
-					</li>
-				</ul>
-			</footer>
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major"><i class="fas fa-laptop-code"></i> Intro</h2>
+								<span class="image main"><img src="images/pic01.png" alt="" /></span>
+								<!-- About Kael Moreira -->
+								<p> Hello and welcome! I’m Kael Moreira, a dedicated Full-Stack Programmer
+									and Multimedia Design Producer and 2D/3D Animator, navigating through the intricate realms of
+									technology and design with equal prowess and enthusiasm.</p>
+
+								<!-- Embarking on a Digital Journey -->
+								<h3><i class="fas fa-rocket"></i> Embarking on a Digital Journey</h3>
+								<p>My journey in the digital domain has been a fascinating adventure, shaping my skills and
+									fortifying my expertise in various technological and creative
+									avenues. Specializing in Computer Programming and Multimedia
+									Design, I’ve traversed through diverse roles - from being
+									 a creative designer, an efficient supervisor managing dynamic teams
+									to a meticulous programmer.</p>
+
+								<!-- Where Technical Meets Creative -->
+								<h3> <i class="fas fa-palette"></i> Where Technical Meets Creative</h3>
+								<p> My technical proficiency spans a spectrum of programming languages and platforms including
+									C++, C#, PHP, SQL, HTML5, JavaScript, and many more (<a href="https://github.com/KaelSM" target="_blank"><i class="fab fa-github"></i>
+										Check my GitHub</a>) ensuring a solid foundation to build
+									robust and scalable solutions. Simultaneously, my creative pursuits
+									have led me to master tools like the Adobe Suite, Unity, Maya, and
+									Unreal, which empower me to create visually captivating and immersive
+									digital experiences.</p>
+
+								<!-- Leadership & Team Management -->
+								<h3> <i class="fas fa-users"></i> Leadership & Team Management</h3>
+								<p> My leadership skills have been sharpened through my role as a Shift Supervisor, where I
+									orchestrated teams of approximately 15 individuals, ensuring optimal productivity, task
+									completion, and fostering a harmonious work environment. This role was pivotal in enhancing
+									my organizational, decision-making, and team management skills, ensuring every project is steered
+									towards its milestones effectively.</p>
+
+								<!-- A Passion for Learning and Guiding -->
+								<h3><i class="fas fa-apple-alt"></i> A Passion for Learning and Guiding</h3>
+								<p> As a Peer Tutor and a Software Student Engineer at Elentra, my experiences have been enriched by not
+									just learning but also disseminating knowledge. Guiding peers, resolving their queries, and contributing
+									to collaborative learning environments have added a valuable dimension to my professional journey, fortifying
+									both my technical and interpersonal skills.</p>
+
+								<!-- Designing for Renowned Brands -->
+								<h3><i class="fas fa-pencil-ruler"></i> Designing for Renowned Brands</h3>
+								<p>My creative journey has also seen collaborations with several esteemed brands, translating their visions into
+									tangible designs, ensuring their narratives are conveyed with visual precision and creativity. Each design is
+									a blend of aesthetic appeal and communicative clarity, ensuring audiences are engaged and messages are delivered effectively.</p>
+
+								<!-- Why Work with Me? -->
+								<h3><i class="fas fa-user-check"></i> Why Work with Me?</h3>
+								<p><i class="fas fa-sync-alt"></i> <b>Adaptability:</b> Comfortably navigating through diverse roles and responsibilities, ensuring comprehensive project execution.
+								<br><br><i class="fas fa-lightbulb"></i> <b>Innovation-Driven:</b> A consistent pursuit for innovative solutions, ensuring each project is not just completed but also goes the extra mile.
+								<br><br><i class="fas fa-user"></i> <b>User-Centric Approach:</b> Be it designing or programming, ensuring the end-user is at the core of every project, guaranteeing engaging and intuitive experiences.
+								</p>
+
+								<!-- Ending -->
+								<br>
+								<img src="images/sign.png" alt="kaelm" style="width: 200px; height: 100px; display: block; margin: 0 auto;">
+								<br>
+								<p style="text-align: center;"><em>Thank you for taking the time to visit and read my website. I hope you enjoyed it and <b>I look forward to hearing from you soon!</b></em></p>
+
+							</article>
+
+						<!-- Contact -->
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							<form method="post" action="https://formspree.io/f/myyqlpne" id="contact-form">
+								<input type="hidden" name="_subject" value="New submission from portfolio">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" required />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4" required></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" id="reset-button" /></li>
+								</ul>
+							</form>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/kael-moreira/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://bit.ly/3gtaybJ" target="_blank" class="icon solid fas fa-pen-nib"><span class="label">Design</span></a></li>
+								<li><a href="https://github.com/KaelSM" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="mailto:kael.m0211@gmail.com" class="icon solid fas fa-paper-plane"><span class="label">Email</span></a></li>
+							</ul>
+						</article>
+						
+						<script>
+							function validateForm() {
+								var name = document.getElementById("name").value;
+								var email = document.getElementById("email").value;
+								var message = document.getElementById("message").value;
+						
+								if (name === "" || email === "" || message === "") {
+									alert("Please fill in all the required fields.");
+									return false;
+								}
+						
+								// Email validation
+								var emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+								if (!emailPattern.test(email)) {
+									alert("Please enter a valid email address.");
+									return false;
+								}
+						
+								return true;
+							}
+						
+							document.getElementById("reset-button").addEventListener("click", function() {
+								document.getElementById("contact-form").reset();
+							});
+						</script>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Kael Sebastian Moreira Gonzalez, 2023 Email: <a href="mailto:kael.m0211@gmail.com">Contact me</a></p>
+					</footer>
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
 
 		<!-- Scripts -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+			<script src="assets/js/EasePack.min.js"></script>
+			<script src="assets/js/TweenLite.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/script.js"></script>
+			<script src="assets/js/constellation.js"></script>
+			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+		<!--Start of Tawk.to Script
+		<script type="text/javascript">
+			var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+			(function(){
+				var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+				s1.async=true;
+				s1.src='https://embed.tawk.to/652ae081eb150b3fb9a161e4/1hcnnpue3';
+				s1.charset='UTF-8';
+				s1.setAttribute('crossorigin','*');
+				s0.parentNode.insertBefore(s1,s0);
+			})();
+		</script>
+		End of Tawk.to Script-->
 	</body>
 </html>

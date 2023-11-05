@@ -1,0 +1,57 @@
+
+/*======================
+    Thank you page
+=======================*/
+@font-face {
+    font-family: 'Lato';
+    src: url('path/to/lato.woff2') format('woff2'),
+         url('path/to/lato.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.thankyou-page {
+     padding:40px 0;
+      background:#ffffff;
+       font-family: 'Lato', sans-serif;
+}
+
+.thankyou-page  img{
+     width:100%;
+    }
+
+.thank_you_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ }
+ 
+ 
+ .thank_you_bg h1{
+ font-size:80px;
+ text-align: center;
+ 
+ }
+ 
+.thank_you_bg h3{
+			 
+    font-size:80px;
+    text-align: center;
+}
+			 
+.link_thankyou{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #092793;
+    margin: 20px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.contant_box_thankyou{ 
+    margin-top:-50px;
+    text-align: center;
+}

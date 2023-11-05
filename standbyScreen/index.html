@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Eventually by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Coming soon...</h1>
+				<p>Kael Moreira portfolio for both coding and design.</p>
+			</header>
+
+		<!-- Signup Form 
+			<form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Sign Up" />
+			</form>
+			<script>
+document.getElementById("signup-form").addEventListener("submit", function(event) {
+    var emailInput = document.getElementById("email");
+    var email = emailInput.value.trim();
+    var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+    if (!email.match(emailRegex)) {
+        alert("Please enter a valid email address.");
+        event.preventDefault(); // Prevent form submission
+    }
+});
+</script>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get the form input
+    $email = $_POST["email"];
+
+    // Validate the email
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Set up the email details
+        $to = "your-email@example.com"; // Replace with your email address
+        $subject = "New signup";
+        $message = "A new user signed up with the email: " . $email;
+        $headers = "From: " . $email . "\r\n" .
+            "Reply-To: " . $email . "\r\n" .
+            "X-Mailer: PHP/" . phpversion();
+
+        // Send the email
+        if (mail($to, $subject, $message, $headers)) {
+            echo "Thank you for signing up! We'll be in touch.";
+        } else {
+            echo "Oops! Something went wrong. Please try again later.";
+        }
+    } else {
+        echo "Please enter a valid email address.";
+    }
+}
+?>
+
+
+		-->
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/kael-moreira/" target="_blank" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+					<li><a href="https://bit.ly/3gtaybJ" target="_blank" class="icon solid fa-swatchbook"><span class="label">Design</span></a></li>
+					<li><a href="https://github.com/KaelSM" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:kael.m0211@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Kael Moreira.</li><li>2023</li><li> 
+					Email: <a href="mailto:kael.m0211@gmail.com">Contact me</a>
+					</li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
